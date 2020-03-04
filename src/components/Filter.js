@@ -17,7 +17,7 @@ const Filter = () => (
     */}
       <Card>
         <CardBody>
-          <CardTitle className="d-block pb-1 h2 text-secondary">Filter based on impact.</CardTitle>
+          <CardTitle className="d-block pb-1 h2 text-dark">Filter based on impact</CardTitle>
           <Container className="px-0" style={{display: "flex"}}>
           <Row noGutters className="pt-2 pt-md-3 w-100 px-2 px-xl-0">
               <Col style={{"padding-left": "0.5rem"}}>

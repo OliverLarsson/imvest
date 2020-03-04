@@ -24,7 +24,10 @@ const Header = () => (
         
           <Col className="d-none d-lg-flex justify-content-start">
             <Nav className="mrx-auto" navbar>
-              
+              <NavbarBrand className="d-inline-block p-0" href="/" style={{ width: 80 }}>
+                <img src={logo} alt="logo" className="position-relative img-fluid" />
+              </NavbarBrand>
+
               <NavItem className="d-flex align-items-center">
                 <Link to="/"><NavLink className="font-weight-bold" >Home</NavLink></Link>
               </NavItem>
@@ -37,22 +40,32 @@ const Header = () => (
               <Link to="/funding"><NavLink className="font-weight-bold" >Funding</NavLink></Link>
               </NavItem>
 
-              <Form style={{"padding-left": "0.5rem"}}>
-                <Input type="search" className="mr-3" placeholder="Search Companies" />
-              </Form>
+              <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>
+                <DropdownToggle className="font-weight-bold" nav caret>Resources</DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem className="font-weight-bold text-secondary text-uppercase" header disabled>Resources</DropdownItem>
+                  <DropdownItem divider />
+                  <Link to="/about"><DropdownItem>About</DropdownItem></Link> 
+                  <DropdownItem>Impact</DropdownItem>
+                  <DropdownItem>Sumthin</DropdownItem>
+                  <DropdownItem>Sumthin</DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
               
             </Nav>
           </Col>
           
           <Col className="d-flex justify-content-xs-start justify-content-lg-center">
-            <NavbarBrand className="d-inline-block p-0" href="/" style={{ width: 80 }}>
-              <img src={logo} alt="logo" className="position-relative img-fluid" />
-            </NavbarBrand>
+            
           </Col>
 
           <Col className="d-none d-lg-flex justify-content-end">
+              <Form style={{"padding": "0.5rem"}}>
+                <Input type="search" className="mr-3" placeholder="Search for anything..." />
+              </Form>
+
               <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>
-                <DropdownToggle className="font-weight-bold" nav caret><img src={AVATAR} alt="avatar" className="img-fluid rounded-circle" style={{ width: 36 }} /></DropdownToggle>
+                <DropdownToggle className="font-weight-bold text-dark" nav caret><img src={AVATAR} alt="avatar" className="img-fluid rounded-circle" style={{ width: 36 }} /></DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem className="font-weight-bold text-secondary text-uppercase" header disabled>User Options</DropdownItem>
                   <DropdownItem divider />

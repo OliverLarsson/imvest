@@ -17,7 +17,7 @@ const RequestFunding = () => (
     */}
       <Card>
         <CardBody>
-          <CardTitle className="d-block pb-1 h2 text-secondary">Request funds form</CardTitle>
+          <CardTitle className="d-block pb-1 h2 text-dark">Request funds form</CardTitle>
           <Container className="px-0" style={{display: "flex"}}>
           <Form>
         <Row form>
