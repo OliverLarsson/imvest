@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/imvest/static/css/main.83ca9be1.chunk.css",
-    "main.js": "/imvest/static/js/main.3ca4a630.chunk.js",
-    "main.js.map": "/imvest/static/js/main.3ca4a630.chunk.js.map",
+    "main.js": "/imvest/static/js/main.a25f45ed.chunk.js",
+    "main.js.map": "/imvest/static/js/main.a25f45ed.chunk.js.map",
     "runtime-main.js": "/imvest/static/js/runtime-main.b8c43e8e.js",
     "runtime-main.js.map": "/imvest/static/js/runtime-main.b8c43e8e.js.map",
     "static/css/2.47e06e2e.chunk.css": "/imvest/static/css/2.47e06e2e.chunk.css",
     "static/js/2.aaa7ff52.chunk.js": "/imvest/static/js/2.aaa7ff52.chunk.js",
     "static/js/2.aaa7ff52.chunk.js.map": "/imvest/static/js/2.aaa7ff52.chunk.js.map",
     "index.html": "/imvest/index.html",
-    "precache-manifest.082127cc50e7e5b0903f2e60d9d93c77.js": "/imvest/precache-manifest.082127cc50e7e5b0903f2e60d9d93c77.js",
+    "precache-manifest.5151512465132dc7b10f63d69049606e.js": "/imvest/precache-manifest.5151512465132dc7b10f63d69049606e.js",
     "service-worker.js": "/imvest/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/imvest/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.83ca9be1.chunk.css.map": "/imvest/static/css/main.83ca9be1.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.aaa7ff52.chunk.js",
     "static/css/main.83ca9be1.chunk.css",
-    "static/js/main.3ca4a630.chunk.js"
+    "static/js/main.a25f45ed.chunk.js"
   ]
 }
