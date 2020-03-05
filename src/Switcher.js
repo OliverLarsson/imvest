@@ -18,6 +18,7 @@ const Switcher = () => {
   return (
     <Switch>
       <Route exact path='/' component={Main}></Route>
+      <Route exact path='/imvest' component={Main}></Route>
       <Route exact path='/invest' component={Invest}></Route>
       <Route exact path='/funding' component={Funding}></Route>
       <Route exact path='/signin' component={ModalView}></Route>

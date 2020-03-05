@@ -26,7 +26,7 @@ const Header = () => (
           <Col className="d-none d-lg-flex justify-content-start">
             <Nav className="mrx-auto" navbar>
               <NavbarBrand className="d-inline-block p-0" href="/" style={{ width: 80 }}>
-                <img src={logo} alt="logo" className="position-relative img-fluid" />
+              <Link to="/"><img src={logo} alt="logo" className="position-relative img-fluid" /></Link>
               </NavbarBrand>
 
               <NavItem className="d-flex align-items-center">
