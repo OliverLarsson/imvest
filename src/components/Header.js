@@ -14,7 +14,7 @@ import ModalView from './ModalView'
 
 
 const AVATAR = 'https://www.gravatar.com/avatar/429e504af19fc3e1cfa5c4326ef3394c?s=240&d=mm&r=pg';
-const logo = "https://github.com/OliverLarsson/imvest/blob/source/public/logo.png"
+const logo = "https://imgur.com/gallery/ZCcjzNY"
 
 const Header = () => (
   <header>
