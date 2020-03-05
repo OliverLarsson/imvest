@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/imvest/static/css/main.83ca9be1.chunk.css",
+    "main.js": "/imvest/static/js/main.31299b44.chunk.js",
+    "main.js.map": "/imvest/static/js/main.31299b44.chunk.js.map",
+    "runtime-main.js": "/imvest/static/js/runtime-main.b8c43e8e.js",
+    "runtime-main.js.map": "/imvest/static/js/runtime-main.b8c43e8e.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/imvest/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.aaa7ff52.chunk.js": "/imvest/static/js/2.aaa7ff52.chunk.js",
+    "static/js/2.aaa7ff52.chunk.js.map": "/imvest/static/js/2.aaa7ff52.chunk.js.map",
+    "index.html": "/imvest/index.html",
+    "precache-manifest.bc04ce9d7320118266bb265a3b7b6c1e.js": "/imvest/precache-manifest.bc04ce9d7320118266bb265a3b7b6c1e.js",
+    "service-worker.js": "/imvest/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/imvest/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.83ca9be1.chunk.css.map": "/imvest/static/css/main.83ca9be1.chunk.css.map",
+    "static/js/2.aaa7ff52.chunk.js.LICENSE.txt": "/imvest/static/js/2.aaa7ff52.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8c43e8e.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.aaa7ff52.chunk.js",
+    "static/css/main.83ca9be1.chunk.css",
+    "static/js/main.31299b44.chunk.js"
+  ]
+}
