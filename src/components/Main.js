@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
-import Post from './Post';
 import SideCard from './SideCard';
 
 const Main = () => (

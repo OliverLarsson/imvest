@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import RequestFunding from './RequestFunding'; 
 
-const Invest = () => (
+const Funding = () => (
     <Fragment>
     <main className="my-5 py-5" style={{backgroundColor: '#F6F8FC'}} >
       <Container className="px-0 col-sm-12 col-md-6 offset-md-3"> 
@@ -16,5 +16,5 @@ const Invest = () => (
   </Fragment>
   );
   
-  export default Invest;
+  export default Funding;
   

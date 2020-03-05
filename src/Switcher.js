@@ -6,8 +6,12 @@ import Invest from './components/Invest';
 import Funding from './components/Funding'; 
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
+import SignUp2 from './components/SignUp2';
+import SignUp3 from './components/SignUp3';
+import SignUp4 from './components/SignUp4';
+import SignUp5 from './components/SignUp5';
 import About from './components/About'; 
-import CompanyInfo from './components/CompanyInfo';
+import Terms from './components/Terms';
 
 
 const Switcher = () => {
@@ -18,8 +22,12 @@ const Switcher = () => {
       <Route exact path='/funding' component={Funding}></Route>
       <Route exact path='/signin' component={SignIn}></Route>
       <Route exact path='/signup' component={SignUp}></Route>
+      <Route exact path='/signup2' component={SignUp2}></Route>
+      <Route exact path='/signup3' component={SignUp3}></Route>
+      <Route exact path='/signup4' component={SignUp4}></Route>
+      <Route exact path='/signup5' component={SignUp5}></Route>
+      <Route exact path='/terms' component={Terms}></Route>
       <Route exact path='/about' component={About}></Route>
-      <Route exact path='/companyinfo' component={CompanyInfo}></Route>
     </Switch>
   );
 }

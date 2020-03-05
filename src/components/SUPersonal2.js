@@ -7,39 +7,27 @@ import {
   CardTitle, CardSubtitle, CardText
 } from 'reactstrap';
 
-const RequestFunding = () => (
+const SUPersonal2 = () => (
   <Fragment>
       <Card>
         <CardBody>
-          <CardTitle className="d-block pb-1 h2 text-dark">Request funds form</CardTitle>
-          <Container className="px-0" style={{display: "flex"}}>
+          <CardTitle className="d-block pb-1 h2 text-dark">Contact Information</CardTitle>
+          <Container className="px-0">
           <Form>
-        <Row form>
+          <Row form>
             <Col md={6}>
             <FormGroup>
-                <Label for="exampleEmail">Your first name</Label>
-                <Input type="text" name="firstName" id="firstName" placeholder="First" />
+                <Label for="tel">Phone Number</Label>
+                <Input type="tel" name="tel" id="tel" placeholder="###-###-####"/>
             </FormGroup>
             </Col>
             <Col md={6}>
             <FormGroup>
-                <Label for="exampleEmail"> Your last name</Label>
-                <Input type="text" name="lastName" id="lastName" placeholder="Last" />
+                <Label for="address">Address</Label>
+                <Input type="address" name="address" id="address" placeholder="Address"/>
             </FormGroup>
             </Col>
         </Row>
-        <FormGroup>
-            <Label for="email">Your company email </Label>
-            <Input type="email" name="email" id="email" placeholder="Email"/>
-        </FormGroup>
-        <FormGroup>
-            <Label for="copmany">Company name</Label>
-            <Input type="text" name="company" id="company" placeholder="Company"/>
-        </FormGroup>
-        <FormGroup>
-            <Label for="address">Address</Label>
-            <Input type="address" name="address" id="address" placeholder="Street"/>
-        </FormGroup>
         <Row form>
             <Col md={6}>
             <FormGroup>
@@ -60,12 +48,20 @@ const RequestFunding = () => (
             </FormGroup>  
             </Col>
         </Row>
-        <Button color="success" className="font-weight-bold" style={{"width": "100%"}} >Send Info</Button>
+        <Row form style={{paddingTop: "2rem"}}>
+          <Col md={6}>
+          <Link to='/signup2'><Button outline color="success" className="font-weight-bold" style={{"width": "100%"}} >Back</Button></Link>
+          </Col>
+          <Col md={6}> 
+          <Link to='/signup4'><Button color="success" className="font-weight-bold" style={{"width": "100%"}} >Next ></Button></Link>
+          </Col>
+        </Row>
         </Form>
           </Container>
         </CardBody>
       </Card>
   </Fragment>
-);
-
-export default RequestFunding;
+  );
+  
+  export default SUPersonal2;
+  
