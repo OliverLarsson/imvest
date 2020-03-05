@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22a47bd4a5d7d66aa09062a57e81a48d",
+    "revision": "df74bc87291965042dd1edd19712fd6a",
     "url": "/imvest/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/imvest/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "ae67ea1871ae201653a2",
+    "revision": "46cf644f06fc478d63ec",
     "url": "/imvest/static/css/main.83ca9be1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/imvest/static/js/2.aaa7ff52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ae67ea1871ae201653a2",
-    "url": "/imvest/static/js/main.31299b44.chunk.js"
+    "revision": "46cf644f06fc478d63ec",
+    "url": "/imvest/static/js/main.3ca4a630.chunk.js"
   },
   {
     "revision": "c045bb4c99a6e5651384",
