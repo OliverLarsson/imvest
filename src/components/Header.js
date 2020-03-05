@@ -10,6 +10,7 @@ import {
   DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import ModalView from './ModalView'
 
 
 const AVATAR = 'https://www.gravatar.com/avatar/429e504af19fc3e1cfa5c4326ef3394c?s=240&d=mm&r=pg';
@@ -29,21 +30,21 @@ const Header = () => (
               </NavbarBrand>
 
               <NavItem className="d-flex align-items-center">
-                <Link to="/"><NavLink className="font-weight-bold" >Home</NavLink></Link>
+                <Link to="/"><NavLink >Home</NavLink></Link>
               </NavItem>
               
               <NavItem className="d-flex align-items-center">
-              <Link to="/invest"><NavLink className="font-weight-bold" >Invest</NavLink></Link>
+              <Link to="/invest"><NavLink >Invest</NavLink></Link>
               </NavItem>
 
               <NavItem className="d-flex align-items-center">
-              <Link to="/funding"><NavLink className="font-weight-bold" >Funding</NavLink></Link>
+              <Link to="/funding"><NavLink >Funding</NavLink></Link>
               </NavItem>
 
               <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>
-                <DropdownToggle className="font-weight-bold" nav caret>Resources</DropdownToggle>
+                <DropdownToggle nav caret>Resources</DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem className="font-weight-bold text-secondary text-uppercase" header disabled>Resources</DropdownItem>
+                  <DropdownItem className="text-secondary text-uppercase" header disabled>Resources</DropdownItem>
                   <DropdownItem divider />
                   <Link to="/about"><DropdownItem>About</DropdownItem></Link> 
                   <DropdownItem>Impact</DropdownItem>
@@ -51,6 +52,10 @@ const Header = () => (
                   <DropdownItem>Sumthin</DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+
+              {/*<NavItem className="d-flex align-items-center">
+              <Link to="/signup"><NavLink ><Button color="success" style={{width: "150%"}} >Create Account</Button></NavLink></Link>
+</NavItem>*/}
               
             </Nav>
           </Col>
@@ -63,17 +68,21 @@ const Header = () => (
               <Form style={{"padding": "0.5rem"}}>
                 <Input type="search" className="mr-3" placeholder="Search for anything..." />
               </Form>
-
+{/*}
               <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>
                 <DropdownToggle className="font-weight-bold text-dark" nav caret><img src={AVATAR} alt="avatar" className="img-fluid rounded-circle" style={{ width: 36 }} /></DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem className="font-weight-bold text-secondary text-uppercase" header disabled>User Options</DropdownItem>
                   <DropdownItem divider />
+                  <Link to="/signin"><DropdownItem>Profile</DropdownItem></Link>
                   <Link to="/signin"><DropdownItem>Sign In</DropdownItem></Link> 
-                  <Link to="/signup"><DropdownItem>Sign Up</DropdownItem></Link>
                   <DropdownItem>Terms of Service</DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
+*/}
+            <NavItem className="d-flex align-items-center">
+              <ModalView />
+            </NavItem>
           </Col>
 
         </Row>

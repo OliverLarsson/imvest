@@ -33,11 +33,15 @@ const RequestFunding = () => (
             <Input type="email" name="email" id="email" placeholder="Email"/>
         </FormGroup>
         <FormGroup>
-            <Label for="copmany">Company name</Label>
+            <Label for="company">Company name</Label>
             <Input type="text" name="company" id="company" placeholder="Company"/>
         </FormGroup>
         <FormGroup>
-            <Label for="address">Address</Label>
+            <Label for="desc">Company description</Label>
+            <Input type="textarea" name="desc" id="desc" placeholder="Description"/>
+        </FormGroup>
+        <FormGroup>
+            <Label for="address"> Company address</Label>
             <Input type="address" name="address" id="address" placeholder="Street"/>
         </FormGroup>
         <Row form>

@@ -21,7 +21,7 @@ const SideCard = () => (
         <CardBody style={{backgroundColor: '#F6F8FC'}}>
           <CardTitle className="h3 mb-2 pt-2 text-dark" style={{ fontSize: '3.5rem', paddingTop:'1rem' }}>Make money and make a positive impact.</CardTitle>
           <CardText className="text-dark mb-3 font-weight-light text-uppercase" style={{ fontSize: '1.5rem' , paddingTop:'1rem'}}>Invest for meaningful outcomes and meaningful returns.</CardText>
-          <Link to="/signup"><Button color="success" className="font-weight-bold " style={{"width": "30%", offset: "3rem"}} >Start Investing</Button></Link>
+          <Link to="/invest"><Button color="success" className="font-weight-bold " style={{"width": "30%", offset: "3rem"}} >Start Investing</Button></Link>
         </CardBody>
       </Card>
     </div>
