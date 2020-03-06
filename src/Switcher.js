@@ -10,7 +10,7 @@ import SignUp2 from './components/SignUp2';
 import SignUp3 from './components/SignUp3';
 import SignUp4 from './components/SignUp4';
 import SignUp5 from './components/SignUp5';
-import About from './components/About'; 
+import About from './components/About';
 import Terms from './components/Terms';
 
 
