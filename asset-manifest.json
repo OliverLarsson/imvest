@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/imvest/static/css/main.83ca9be1.chunk.css",
-    "main.js": "/imvest/static/js/main.08031320.chunk.js",
-    "main.js.map": "/imvest/static/js/main.08031320.chunk.js.map",
+    "main.js": "/imvest/static/js/main.ef43a8bc.chunk.js",
+    "main.js.map": "/imvest/static/js/main.ef43a8bc.chunk.js.map",
     "runtime-main.js": "/imvest/static/js/runtime-main.b8c43e8e.js",
     "runtime-main.js.map": "/imvest/static/js/runtime-main.b8c43e8e.js.map",
     "static/css/2.47e06e2e.chunk.css": "/imvest/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.b1b9286e.chunk.js": "/imvest/static/js/2.b1b9286e.chunk.js",
-    "static/js/2.b1b9286e.chunk.js.map": "/imvest/static/js/2.b1b9286e.chunk.js.map",
+    "static/js/2.7c130c64.chunk.js": "/imvest/static/js/2.7c130c64.chunk.js",
+    "static/js/2.7c130c64.chunk.js.map": "/imvest/static/js/2.7c130c64.chunk.js.map",
     "index.html": "/imvest/index.html",
-    "precache-manifest.6fe9ebf71777f7272508b6497e7ae67f.js": "/imvest/precache-manifest.6fe9ebf71777f7272508b6497e7ae67f.js",
+    "precache-manifest.99b3dd02c06d96cc930aa5e906b17a5c.js": "/imvest/precache-manifest.99b3dd02c06d96cc930aa5e906b17a5c.js",
     "service-worker.js": "/imvest/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/imvest/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.83ca9be1.chunk.css.map": "/imvest/static/css/main.83ca9be1.chunk.css.map",
-    "static/js/2.b1b9286e.chunk.js.LICENSE.txt": "/imvest/static/js/2.b1b9286e.chunk.js.LICENSE.txt"
+    "static/js/2.7c130c64.chunk.js.LICENSE.txt": "/imvest/static/js/2.7c130c64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b8c43e8e.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.b1b9286e.chunk.js",
+    "static/js/2.7c130c64.chunk.js",
     "static/css/main.83ca9be1.chunk.css",
-    "static/js/main.08031320.chunk.js"
+    "static/js/main.ef43a8bc.chunk.js"
   ]
 }

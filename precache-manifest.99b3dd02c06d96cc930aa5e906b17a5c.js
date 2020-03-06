@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "068f9fdb88bff1dff3f4db5b3cd1df86",
+    "revision": "eb2302bf006d979a4f366d0eac396864",
     "url": "/imvest/index.html"
   },
   {
-    "revision": "e72411437a6b28f52600",
+    "revision": "da5bbf9df9037fc184b0",
     "url": "/imvest/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "30fdbe6ce4a04b7ecf8b",
+    "revision": "75b954f2031a9a588f63",
     "url": "/imvest/static/css/main.83ca9be1.chunk.css"
   },
   {
-    "revision": "e72411437a6b28f52600",
-    "url": "/imvest/static/js/2.b1b9286e.chunk.js"
+    "revision": "da5bbf9df9037fc184b0",
+    "url": "/imvest/static/js/2.7c130c64.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/imvest/static/js/2.b1b9286e.chunk.js.LICENSE.txt"
+    "url": "/imvest/static/js/2.7c130c64.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30fdbe6ce4a04b7ecf8b",
-    "url": "/imvest/static/js/main.08031320.chunk.js"
+    "revision": "75b954f2031a9a588f63",
+    "url": "/imvest/static/js/main.ef43a8bc.chunk.js"
   },
   {
     "revision": "c045bb4c99a6e5651384",
