@@ -6,7 +6,7 @@ import {
   CardTitle, CardSubtitle, CardText, Form, Input, Row
 } from 'reactstrap';
 
-const FooterCard = () => (
+const Review = () => (
   <Fragment>
   
     {/*
@@ -17,14 +17,11 @@ const FooterCard = () => (
     <div>
       <Card style={{border: "none", backgroundColor: "rgba(245, 245, 245, 0)"}}>
         <CardBody className="justify-content-center text-center">
-          <CardTitle className="h3 mb-2 pt-2 text-light text-center" style={{ fontSize: '2.5rem', paddingTop:'2.5rem' }}>Have questions?</CardTitle>
-          <CardText className="text-light mb-3 font-weight-light text-uppercase text-center" style={{ fontSize: '1.5rem' , paddingTop:'1.5rem', paddingBottom:'.5rem'}}>Ask one of our experts.</CardText>
-          <div className="mb-4"/>
-          <Link to="/about"><Button color="success" className="font-weight-bold text-center" style={{"width": "50%"}} >Get Help</Button></Link>
+          <CardTitle className="h3 mb-2 pt-2 text-dark text-center" style={{ fontSize: '3rem'}}>See what others have to say</CardTitle>
         </CardBody>
       </Card>
     </div>
   </Fragment>
 );
 
-export default FooterCard;
+export default Review;
